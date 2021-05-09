@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <title>Canvas Testing Site</title>
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <div id="menu">
+            <a onclick="switchType('solid','gradiant','flow')">Solid</a>
+            <a onclick="switchType('gradiant','solid','flow')">Gradiant</a>
+            <a onclick="switchType('flow','solid','gradiant')">Flow</a>
+        </div>
+
+        <div id="content">
+            <h1>LED Light Controller</h1>
+            <div id="solid" style="display:block">
+                <p>Pattern: solid</p>
+            </div>
+            <div id="gradiant" style="display:none">
+                <p>Pattern: gradient</p>
+            </div>
+            <div id="flow" style="display:none">
+                <p>Pattern: flow</p>
+            </div>
+            <button>Upload Pattern</button>
+        </div>
+    </body>
+</html> 
